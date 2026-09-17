@@ -1,8 +1,6 @@
 $schema: https://api.gitbook.com/gitbook-docs.yaml
-version: 1
-
 site:
-  title: Sekoia Documentation
+  title: Test Auto Generated Docs
   structure:
     - type: section
       key: section-sekoia-solutions
