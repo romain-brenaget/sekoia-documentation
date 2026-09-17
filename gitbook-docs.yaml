@@ -1,0 +1,61 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+
+site:
+  title: Sekoia Documentation
+  structure:
+    - type: section
+      key: section-sekoia-solutions
+      title: Sekoia Solutions
+      path: solutions
+      default: true
+      children:
+        - type: space
+          key: space-sekoia-defend
+          title: Detect, Hunt and Respond (Defend)
+          path: defend
+          default: true
+          content:
+            directory: ./docs/xdr
+        - type: space
+          key: space-sekoia-intelligence
+          title: Threat Context (Intelligence)
+          path: intelligence
+          content:
+            directory: ./docs/cti
+    - type: section
+      key: section-getting-started
+      title: Getting started
+      path: getting-started
+      children:
+        - type: space
+          key: space-getting-started
+          title: Overview
+          path: overview
+          default: true
+          content:
+            directory: ./docs/getting_started
+    - type: section
+      key: section-integrations
+      title: Integrations
+      path: integrations
+      children:
+        - type: space
+          key: space-integrations
+          title: Integrations
+          path: catalog
+          default: true
+          content:
+            directory: ./docs/integration
+    - type: section
+      key: section-api-documentation
+      title: API Documentation
+      path: api
+      children:
+        - type: space
+          key: space-api-reference
+          title: API Reference
+          path: reference
+          default: true
+          content:
+            directory: ./docs/developer
