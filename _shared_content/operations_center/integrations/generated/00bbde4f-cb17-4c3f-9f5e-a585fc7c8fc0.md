@@ -16,7 +16,7 @@ In details, the following table denotes the type of events produced by this inte
 
 | Name | Values |
 | ---- | ------ |
-| Kind | `` |
+| Kind | |
 | Category | `process` |
 | Type | `change` |
 
