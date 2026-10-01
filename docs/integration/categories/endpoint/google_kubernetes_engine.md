@@ -2,7 +2,7 @@ uuid: 00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0
 name: Google Kubernetes Engine (GKE)
 type: intake
 
-{!_shared_content/operations_center/integrations/google_cloud.md!}
+{% include "../../../../_shared_content/operations_center/integrations/google_cloud.md" %}
 
 
 
@@ -36,12 +36,12 @@ To learn more, consult the following resources:
 - [Youtube video - Cloud Forensics 101 (Cloud Next '18)](https://youtu.be/OkjTqlETgMA)
 - [Blog post - A quick GKE logs primer](https://medium.com/google-cloud/a-quick-gke-logs-primer-a978f60daa7)
 
-{!_shared_content/operations_center/integrations/generated/00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0_sample.md!}
+{% include "../../../../_shared_content/operations_center/integrations/generated/00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0_sample.md" %}
 
 
-{!_shared_content/integration/detection_section.md!}
+{% include "../../../../_shared_content/integration/detection_section.md" %}
 
-{!_shared_content/operations_center/detection/generated/suggested_rules_00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0_do_not_edit_manually.md!}
+{% include "../../../../_shared_content/operations_center/detection/generated/suggested_rules_00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0_do_not_edit_manually.md" %}
 
-{!_shared_content/operations_center/integrations/generated/00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0.md!}
+{% include "../../../../_shared_content/operations_center/integrations/generated/00bbde4f-cb17-4c3f-9f5e-a585fc7c8fc0.md" %}
 

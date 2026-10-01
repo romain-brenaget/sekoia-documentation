@@ -19,8 +19,9 @@ Next, create a [dedicated service account](https://cloud.google.com/iam/docs/cre
 
 - Create a service account with the role `Pub/Sub Subscriber`
 
-!!! Note
-      To successfully activate the playbook further down this page, ensure the user has been granted the **Pub/Sub Subscriber role** for both the **Topic** and **Subscription** pages. Failure to do so will result in an error with status code 403. 
+{% hint style="info" %}
+  To successfully activate the playbook further down this page, ensure the user has been granted the **Pub/Sub Subscriber role** for both the **Topic** and **Subscription** pages. Failure to do so will result in an error with status code 403. 
+{% endhint %}
 
 - Create and download JSON keys (*service account credentials*) 
 
